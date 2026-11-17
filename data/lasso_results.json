@@ -1,0 +1,63 @@
+{
+  "n": 720,
+  "p": 34,
+  "lam_min": 0.8877197088985865,
+  "mse_cv_min": 0.09853614724097468,
+  "lam_1se": 3.562247890262444,
+  "n_iter_min": 778,
+  "n_active_min": 31,
+  "n_iter_1se": 143,
+  "n_active_1se": 21,
+  "m_lasso_min_train": {
+    "R2": 0.7914630652831793,
+    "RMSE": 0.2933328678110584,
+    "MSE": 0.08604417133825984,
+    "MAE": 0.215596552934207
+  },
+  "m_lasso_min_test": {
+    "R2": 0.7925762923998139,
+    "RMSE": 0.310695900182836,
+    "MSE": 0.09653194239042279,
+    "MAE": 0.23202046633408863
+  },
+  "m_lasso_1se_train": {
+    "R2": 0.7811396502191731,
+    "RMSE": 0.300505745516934,
+    "MSE": 0.09030370308868829,
+    "MAE": 0.2230811764651341
+  },
+  "m_lasso_1se_test": {
+    "R2": 0.778656547075707,
+    "RMSE": 0.3209516896822806,
+    "MSE": 0.10300998710991095,
+    "MAE": 0.24106432870406388
+  },
+  "diff_sk_coef": 5.760968844852055e-07,
+  "diff_sk_intercept": 0.0,
+  "m_sk_lasso_test": {
+    "R2": 0.7925763137933155,
+    "RMSE": 0.31069588416038246,
+    "MSE": 0.0965319324342018,
+    "MAE": 0.23202044456041757
+  },
+  "zeros_min": [
+    "area*distrito_San Miguel",
+    "area*distrito_Santiago de Surco",
+    "area*distrito_Surquillo"
+  ],
+  "zeros_1se": [
+    "age_years",
+    "distrito_Lince",
+    "distrito_Miraflores",
+    "area*bedrooms",
+    "area*bathrooms",
+    "bedrooms*bathrooms",
+    "area*distrito_Chorrillos",
+    "area*distrito_Comas",
+    "area*distrito_Lince",
+    "area*distrito_San Isidro",
+    "area*distrito_San Miguel",
+    "area*distrito_Santiago de Surco",
+    "area*distrito_Surquillo"
+  ]
+}
